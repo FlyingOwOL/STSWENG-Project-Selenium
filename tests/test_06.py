@@ -31,3 +31,5 @@ def test_buy_3_items():
     assert qty.get_attribute("value") == "3"
 
     driver.quit()
+
+test_buy_3_items()
