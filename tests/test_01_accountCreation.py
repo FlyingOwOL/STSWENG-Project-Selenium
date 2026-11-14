@@ -25,11 +25,10 @@ emailAddressElement.send_keys("baddielola@gmail.com")
 passwordElement = driver.find_element(By.NAME, "customer[password]")
 passwordElement.click()
 passwordElement.send_keys("mamacoco123")
-time.sleep(5)
 
 createElement = driver.find_element(By.CSS_SELECTOR, "input[type='submit'][value='Create']")
 createElement.click()
-
+input("if there's a capcha so")
 
 input("Press mepapi")
 driver.quit()
