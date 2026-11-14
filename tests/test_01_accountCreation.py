@@ -26,8 +26,9 @@ passwordElement = driver.find_element(By.NAME, "customer[password]")
 passwordElement.click()
 passwordElement.send_keys("mamacoco123")
 
+time.sleep(5)
 createElement = driver.find_element(By.CSS_SELECTOR, "input[type='submit'][value='Create']")
 createElement.click()
 
-time.sleep(30)
+input("Press mepapi")
 driver.quit()
